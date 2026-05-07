@@ -229,8 +229,13 @@ st.markdown(f"""
     background: {SURFACE};
     border: 1px solid {BORDER};
     border-radius: 14px;
-    padding: 16px 16px 4px 16px;
+    padding: 22px 16px 12px 16px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+    overflow: visible;
+  }}
+  /* Avoid clipping Plotly SVG title / subtitle at the ceiling of the card */
+  div[data-testid="stPlotlyChart"] .js-plotly-plot {{
+    overflow: visible !important;
   }}
   .chart-label {{
     font-size: 10px;
@@ -438,11 +443,13 @@ high_opp     = df["Opportunity"].str.startswith("High").sum()
 
 # ── Plotly chart defaults ──────────────────────────────────────────────────────
 def apply_theme(fig, height=300):
+    # Top margin reserves space for two-line HTML titles (eyebrow + headline).
+    # t=52 was too tight and clipped the uppercase label on dense charts.
     fig.update_layout(
         paper_bgcolor=SURFACE,
         plot_bgcolor=CANVAS,
         font=dict(family="Plus Jakarta Sans", color=CHART_FONT, size=11),
-        margin=dict(l=8, r=8, t=52, b=8),
+        margin=dict(l=8, r=8, t=74, b=12),
         height=height,
         legend=dict(
             bgcolor="rgba(0,0,0,0)",
@@ -570,7 +577,7 @@ with chart_l:
         title=dict(
             text="<span style='font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#787774'>TRANSFER TYPE</span><br><b style='font-size:14px;color:#18181B'>What triggered the transfer</b>",
             x=0, xanchor="left", y=1, yanchor="top",
-            pad=dict(t=10, l=8),
+            pad=dict(t=14, l=8),
             font=dict(family="Plus Jakarta Sans"),
         ),
         showlegend=True,
@@ -607,11 +614,11 @@ with chart_r:
                      range=[0, max_state * 1.28])
     fig.update_yaxes(title=None)
     apply_theme(fig, height=300)
-    fig.update_layout(margin=dict(l=8, r=32, t=52, b=8))
+    fig.update_layout(margin=dict(l=8, r=32, t=74, b=12))
     fig.update_layout(title=dict(
         text="<span style='font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#787774'>DROPOUT POINT</span><br><b style='font-size:14px;color:#18181B'>Last system state before transfer</b>",
         x=0, xanchor="left", y=1, yanchor="top",
-        pad=dict(t=4, l=8),
+        pad=dict(t=14, l=8),
         font=dict(family="Plus Jakarta Sans"),
     ))
     st.plotly_chart(fig, use_container_width=True, config=CHART_CFG)
@@ -658,7 +665,7 @@ with c1:
     fig.update_layout(title=dict(
         text="<span style='font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#787774'>OPPORTUNITY TIER</span><br><b style='font-size:14px;color:#18181B'>Calls by recoverability</b>",
         x=0, xanchor="left", y=1, yanchor="top",
-        pad=dict(t=4, l=8),
+        pad=dict(t=14, l=8),
         font=dict(family="Plus Jakarta Sans"),
     ))
     st.plotly_chart(fig, use_container_width=True, config=CHART_CFG)
@@ -686,7 +693,7 @@ with c2:
         title=dict(
             text="<span style='font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#787774'>DIALOGUE TURNS</span><br><b style='font-size:14px;color:#18181B'>User turns by transfer type</b>",
             x=0, xanchor="left", y=1, yanchor="top",
-            pad=dict(t=10, l=8),
+            pad=dict(t=14, l=8),
             font=dict(family="Plus Jakarta Sans"),
         ),
     )
@@ -713,7 +720,7 @@ with c3:
         title=dict(
             text="<span style='font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#787774'>CALL LENGTH</span><br><b style='font-size:14px;color:#18181B'>Handle time distribution</b>",
             x=0, xanchor="left", y=1, yanchor="top",
-            pad=dict(t=10, l=8),
+            pad=dict(t=14, l=8),
             font=dict(family="Plus Jakarta Sans"),
         ),
     )
