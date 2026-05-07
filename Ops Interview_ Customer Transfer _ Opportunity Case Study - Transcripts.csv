@@ -1,0 +1,778 @@
+Task Result,Task Type,Length (s),Last state,Redirect?,Redirect to,Internal task reason,Transcript
+TRANSFER,TRANSFER,6,REDIRECT,TRUE,REPRESENTATIVE,OTHER,"[23:18:26] ASSORT: My name is Megan, how may I help you?
+ [23:18:41] USER: can i speak to a representative
+ [23:18:41] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [23:18:47] USER: no
+ [23:18:47] ASSORT: Connecting you to a representative now.
+ [23:18:50] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,10,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[23:10:48] ASSORT: My name is Megan, how may I help you?
+ [23:10:53] USER: customer service rep
+ [23:10:53] ASSORT: I'm here to help manage appointments during
+ [23:11:04] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [23:11:13] USER: no i wanna talk to a customer service representative
+ [23:11:13] ASSORT: Connecting you to a representative now."
+TRANSFER,REQUESTED TRANSFER,10,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[23:10:39] ASSORT: My name
+ [23:10:47] USER: bruises i relieve your
+ [23:10:47] ASSORT: Are you calling about a clinical concern
+ [23:10:50] ASSORT: Are you calling about a clinical concern?
+ [23:10:57] USER: may first no schedule an appointment
+ [23:10:57] ASSORT: Great! Let's schedule an appointment.
+ [23:11:01] ASSORT: Is the number you're calling from the best one to reach you at?
+ [23:11:09] USER: Yes.
+ [23:11:09] ASSORT: Alright, one moment.
+ [23:11:28] USER: Price. By name.
+ [23:11:28] ASSORT: I can help you with appointments, but I'm unable to search by name. Would you like to try searching by phone number?
+ [23:11:44] USER: No.
+ [23:11:44] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [23:11:51] USER: No.
+ [23:11:51] ASSORT: Connecting you to a representative now."
+TRANSFER,REQUESTED TRANSFER,11,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[23:07:49] ASSORT: My name is Megan, how may I help you?
+ [23:07:57] USER: schedule an appointment
+ [23:07:57] ASSORT: Great! Let's schedule an appointment.
+ [23:08:00] ASSORT: Is the number you're calling from the best one to reach you at?
+ [23:08:10] USER: No.
+ [23:08:10] ASSORT: What's the best ten digit phone number to reach you at?
+ [23:08:27] USER: XXXX
+ [23:08:27] ASSORT: I've got the phone number as X is that correct?
+ [23:08:32] USER: Yes.
+ [23:08:32] ASSORT: Alright, one moment.
+ [23:08:39] ASSORT: Please state the patient's date of birth in the format: Month, Day, Year.
+ [23:08:51] USER: XXXX
+ [23:08:51] ASSORT: The date of birth is , XXX, right?
+ [23:08:56] USER: Right.
+ [23:08:56] ASSORT: Got it.
+ [23:08:59] ASSORT: Now please state the patient's last name.
+ [23:09:08] USER: XXX
+ [23:09:08] ASSORT: The last name is X, correct?
+ [23:09:17] USER: No.
+ [23:09:17] ASSORT: My apologies. Could you please spell the full last name for me?
+ [23:09:27] USER: XXXX
+ [23:09:27] ASSORT: Got it. The last name is XXX, is that correct?
+ [23:09:32] USER: Yes.
+ [23:09:32] ASSORT: Got it.
+ [23:09:35] ASSORT: What is the patient's legal first name?
+ [23:09:44] USER: XXX.
+ [23:09:44] ASSORT: Just to confirm, the first name is XXX, right?
+ [23:09:53] USER: No.
+ [23:09:53] ASSORT: My apologies. Could you please spell the full first name for me?
+ [23:10:05] USER: XXX
+ [23:10:05] ASSORT: Got it. The first name is XXX is that correct?
+ [23:10:09] USER: Yes.
+ [23:10:09] ASSORT: Great!
+ [23:10:15] ASSORT: In one to two sentences, please describe the primary concern.
+ [23:10:29] USER: cervix exam
+ [23:10:29] ASSORT: Is this for a routine well woman exam or something else related to your cervix?
+ [23:10:37] USER: something else related
+ [23:10:37] ASSORT: Can you tell me more about what this visit is for?
+ [23:10:59] USER: a s c u s of cervix with negative high risk hpv
+ [23:10:59] ASSORT: So this is for an ASCUS of the cervix with negative high risk HPV, correct?
+ [23:11:07] USER: yes
+ [23:11:07] ASSORT: Let's get this scheduled. Is this related to a colposcopy?
+ [23:11:26] USER: no
+ [23:11:26] ASSORT: Okay, so this visit is for an ASCUS of the cervix with negative high risk HPV, but it's not related to a colposcopy. Can you tell me what type of visit this is?
+ [23:11:54] USER: please read that consultation
+ [23:11:54] ASSORT: I'm sorry, I cannot read a consultation for you. I can help you schedule, reschedule, or cancel appointments. You can say ""representative"" to be connected to a representative. Can you tell me what type of visit this is for your ASCUS of the cervix with negative high risk HPV?
+ [23:12:09] USER: okay said represent representative
+ [23:12:09] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [23:12:17] USER: no
+ [23:12:17] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,12,REDIRECT CC AND VT,TRUE,REPRESENTATIVE,OTHER,"[23:02:37] ASSORT: My name is Megan, how may I help you?
+ [23:02:45] USER: scheduling
+ [23:02:45] ASSORT: Are you looking to schedule an appointment?
+ [23:02:51] USER: yeah
+ [23:02:51] ASSORT: Okay, let's get that appointment scheduled for you.
+ [23:02:55] ASSORT: Is the number you're calling from the best one to reach you at?
+ [23:03:01] USER: Yeah.
+ [23:03:01] ASSORT: Alright, one moment.
+ [23:03:08] ASSORT: And for authentication purposes, state the patient's date of birth
+ [23:03:19] USER: XXX
+ [23:03:19] ASSORT: The birth date is XXX , is that correct?
+ [23:03:23] USER: yes
+ [23:03:23] ASSORT: Thanks.
+ [23:03:32] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's name is XXXXX
+ [23:03:37] USER: yeah
+ [23:03:37] ASSORT: Got it.
+ [23:03:43] ASSORT: In one to two sentences, please describe the primary concern.
+ [23:03:50] USER: iud
+ [23:03:50] ASSORT: Is this for an IUD insertion?
+ [23:03:57] USER: yeah
+ [23:03:57] ASSORT: Let's get scheduled for an IUD insertion.
+ [23:04:01] ASSORT: Connecting you to a representative now to help with this."
+TRANSFER,PREFERS HUMAN,12,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[23:02:09] ASSORT: My name is Megan, how may I help you?
+ [23:02:23] USER: speak speak to representative speak to representative
+ [23:02:23] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [23:02:25] ASSORT: I'm here to help
+ [23:02:28] USER: no
+ [23:02:28] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,12,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[23:01:56] ASSORT: My name is Megan, how may I help you?
+ [23:02:07] USER: schedule a pelvic ultrasound
+ [23:02:07] ASSORT: It seems like you have a more urgent issue. Connecting you to a live representative to handle your case."
+TRANSFER,REQUESTED TRANSFER,12,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:56:27] ASSORT: My name is Megan, how may I help you?
+ [22:56:39] USER: i'd like to make an appointment for chronic bv infection
+ [22:56:39] ASSORT: Great! Let's schedule an appointment.
+ [22:56:43] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:56:49] USER: Yes.
+ [22:56:49] ASSORT: Alright, one moment.
+ [22:56:55] ASSORT: Please state the patient's date of birth in the format: Month, Day, Year.
+ [22:57:06] USER: XXX
+ [22:57:06] ASSORT: The date of birth is XXX, right?
+ [22:57:11] USER: Yes.
+ [22:57:11] ASSORT: Got it.
+ [22:57:14] ASSORT: Now please state the patient's last name.
+ [22:57:22] USER: XXX.
+ [22:57:22] ASSORT: The last name is XXX correct?
+ [22:57:31] USER: No.
+ [22:57:31] ASSORT: My apologies. Could you please spell the full last name for me?
+ [22:57:42] USER: XXX
+ [22:57:42] ASSORT: Got it. The last name is XXX, is that correct?
+ [22:57:47] USER: Yes.
+ [22:57:47] ASSORT: Got it.
+ [22:57:51] ASSORT: What is the patient's legal first name?
+ [22:57:59] USER: XXX
+ [22:57:59] ASSORT: Just to confirm, the first name is XXX, right?
+ [22:58:05] USER: Yes.
+ [22:58:05] ASSORT: Great!
+ [22:58:10] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:58:32] USER: chronic bv infection and yeast infection that has not gotten better with traditional or with the normal treatment options
+ [22:58:32] ASSORT: So this is for a chronic BV and yeast infection that hasn't responded to traditional treatments, correct?
+ [22:58:37] USER: correct
+ [22:58:37] ASSORT: Let's get this scheduled for you.
+ [22:58:40] ASSORT: What is the primary insurance plan?
+ [22:58:52] USER: XXXXXX
+ [22:58:52] ASSORT: Do you know the product type for the XXXXXX plan? Such as P, P, O, HMO, or other?
+ [22:59:00] USER: I don't know.
+ [22:59:00] ASSORT: So it's a XXX plan, correct?
+ [22:59:04] USER: correct
+ [22:59:04] ASSORT: Okay.
+ [22:59:07] ASSORT: Is the patient the policy holder on the plan?
+ [22:59:11] USER: no
+ [22:59:11] ASSORT: Okay.
+ [22:59:15] ASSORT: Is the policy holder's last name Witt?
+ [22:59:19] USER: yes
+ [22:59:19] ASSORT: Got it.
+ [22:59:22] ASSORT: What is the policy holder's legal first name?
+ [22:59:31] USER: XXX
+ [22:59:31] ASSORT: Just to confirm, the first name is XXX right?
+ [22:59:40] USER: No.
+ [22:59:40] ASSORT: My apologies. Could you please spell the full first name for me?
+ [22:59:51] USER: XXX
+ [22:59:51] ASSORT: Got it. The first name is XXX, is that correct?
+ [22:59:56] USER: Yes.
+ [22:59:56] ASSORT: Great!
+ [23:00:01] ASSORT: Now please state the policy holder's date of birth in the format: Month Day, Year.
+ [23:00:13] USER: XXX
+ [23:00:13] ASSORT: The date of birth is XXX, right?
+ [23:00:18] USER: Yes.
+ [23:00:18] ASSORT: Got it.
+ [23:00:22] ASSORT: What is the policy holder's address?
+ [23:00:32] USER: XXX
+ [23:00:32] ASSORT: Got it.
+ [23:00:41] ASSORT: The policy holder's address is XXX?
+ [23:00:45] USER: Yes.
+ [23:00:45] ASSORT: Great!
+ [23:00:54] ASSORT: What is the insurance subscriber ID or member ID, including any letters? Please note, this is different from the group number.
+ [23:01:12] USER: I don't know.
+ [23:01:12] ASSORT: No problem at all. Your subscriber ID can usually be found on your insurance card. I'll need that to proceed with scheduling your appointment. If you'd like to speak with a representative, you can say ""representative.""
+ [23:01:28] USER: Representative.
+ [23:01:28] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [23:01:35] USER: No.
+ [23:01:35] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,13,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:55:22] ASSORT: My name is Megan, how may I help you?
+ [22:55:36] USER: speak to representative
+ [22:55:36] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [22:55:43] USER: no
+ [22:55:43] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,15,REDIRECT SLOT MACHINE,TRUE,REPRESENTATIVE,OTHER,"[22:45:23] ASSORT: My name is Megan, how may I help you?
+ [22:45:31] USER: i need to schedule an appointment
+ [22:45:31] ASSORT: Great! Let's schedule an appointment.
+ [22:45:34] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:45:41] USER: Yes.
+ [22:45:41] ASSORT: Alright, one moment.
+ [22:45:48] ASSORT: And for authentication purposes, state the patient's date of birth
+ [22:45:55] USER: XXX
+ [22:45:55] ASSORT: Thanks.
+ [22:46:04] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name isXXX?
+ [22:46:09] USER: yes
+ [22:46:09] ASSORT: Got it.
+ [22:46:15] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:46:31] USER: checkup post partum checkup and birth control
+ [22:46:31] ASSORT: Okay, so this appointment is for a postpartum check up and to discuss birth control, correct?
+ [22:46:40] USER: yes
+ [22:46:40] ASSORT: Let's get you scheduled for a postpartum check up and birth control consultation.
+ [22:46:43] ASSORT: When and where was the baby delivered?
+ [22:46:56] USER: XXX and XXX
+ [22:46:56] ASSORT: And who delivered the baby?
+ [22:47:05] USER: XXX
+ [22:47:05] ASSORT: Finally, was this a vaginal delivery?
+ [22:47:17] USER: yes
+ [22:47:17] ASSORT: Were there any complications during the delivery, such as hemorrhaging, infection, or the need for a blood pressure check?
+ [22:47:24] USER: no
+ [22:47:24] ASSORT: Thank you for providing that information.
+ [22:47:28] ASSORT: Has the patient's insurance changed since their last visit?
+ [22:47:35] USER: no
+ [22:47:35] ASSORT: Proceeding with the insurance we have on file.
+ [22:47:38] ASSORT: You'd like to see XXX, correct?
+ [22:47:44] USER: yes
+ [22:47:44] ASSORT: Great! I'll schedule you with XXX
+ [22:47:49] ASSORT: The only location valid for your case is XXX, does that work?
+ [22:47:56] USER: yes
+ [22:47:56] ASSORT: Got it. I'll look at XXX
+ [22:47:59] ASSORT: When would you like to schedule the appointment?
+ [22:48:12] USER: friday
+ [22:48:12] ASSORT: Looking for slots on Friday. Please wait a moment while I check for available times.
+ [22:48:19] ASSORT: It seems there is no availability in the near future. Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,17,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:40:22] USER: ayr
+ [22:40:22] ASSORT: My
+ [22:40:34] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [22:40:43] USER: no
+ [22:40:43] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,17,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:37:07] ASSORT: My name is Megan, how may I help you?
+ [22:37:21] USER: my name is XXX XXX and my doctor XXX wants me to come there for you to examine a
+ [22:37:21] ASSORT: Are you looking to
+ [22:37:26] USER: a sore i have
+ [22:37:26] ASSORT: Are you looking to schedule an appointment for
+ [22:37:40] USER: are you a person yes
+ [22:37:40] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [22:37:49] USER: i'm sick of new machines i want a person
+ [22:37:49] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,19,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:36:57] ASSORT: My name is Megan, how may I help you?
+ [22:37:13] USER: representative
+ [22:37:13] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [22:37:19] USER: no
+ [22:37:19] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,20,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:36:24] ASSORT: My name is Megan, how may I help you?
+ [22:36:39] USER: representative
+ [22:36:39] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [22:36:44] USER: no
+ [22:36:44] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,20,REDIRECT CC AND VT,TRUE,REPRESENTATIVE,OTHER,"[22:34:59] ASSORT: My name is Megan, how may I help you?
+ [22:35:06] USER: i'm trying to schedule an appointment
+ [22:35:06] ASSORT: Great! Let's schedule an appointment.
+ [22:35:10] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:35:16] USER: Yes.
+ [22:35:16] ASSORT: Alright, one moment.
+ [22:35:24] ASSORT: And for authentication purposes, state the patient's date of birth
+ [22:35:30] USER: XXX
+ [22:35:30] ASSORT: Thanks.
+ [22:35:39] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX last name is XXX?
+ [22:35:43] USER: yes
+ [22:35:43] ASSORT: Got it.
+ [22:35:49] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:36:00] USER: wellness annual pap smear
+ [22:36:00] ASSORT: Let's get scheduled for an
+ [22:36:06] USER: and birth control
+ [22:36:06] ASSORT: Is this a new birth control prescription or are you continuing an existing one?
+ [22:36:17] USER: new
+ [22:36:17] ASSORT: Are you looking for a specific type of birth control, like an IUD or implant, or would you like to discuss options?
+ [22:36:21] USER: ivy
+ [22:36:21] ASSORT: Did you say IUD?
+ [22:36:31] USER: yes
+ [22:36:31] ASSORT: So, to confirm, you'd like to schedule an annual wellness exam with a Pap smear and an IUD insertion, correct?
+ [22:36:41] USER: yes
+ [22:36:41] ASSORT: Okay, let's get you scheduled for an annual wellness exam with a Pap smear and an IUD insertion.
+ [22:36:45] ASSORT: Connecting you to a representative now to help with this."
+TRANSFER,REQUESTED TRANSFER,20,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:32:59] ASSORT: My name is Megan, how may I help you?
+ [22:33:10] USER: scheduling an appointment
+ [22:33:10] ASSORT: Are you looking to schedule a new appointment?
+ [22:33:18] USER: yes
+ [22:33:18] ASSORT: Okay, I can help you with that. What doctor would you like to schedule with?
+ [22:33:22] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:33:29] USER: Yes.
+ [22:33:29] ASSORT: Alright, one moment.
+ [22:33:36] ASSORT: And for authentication purposes, state the patient's date of birth
+ [22:33:47] USER: XXX
+ [22:33:47] ASSORT: The birth date is XXX, is that correct?
+ [22:33:50] USER: yes
+ [22:33:50] ASSORT: Thanks.
+ [22:33:59] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [22:34:05] USER: yes
+ [22:34:05] ASSORT: Got it.
+ [22:34:10] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:34:38] USER: *...silence...* missing period missing period an icd panel pregnancy faint line need to be checked up for a pregnancy and ultrasound
+ [22:34:38] ASSORT: It seems like you have
+ [22:34:46] USER: and a std panel
+ [22:34:46] ASSORT: It seems like you have a more urgent issue. Connecting you to a live representative to handle your case."
+TRANSFER,REQUESTED TRANSFER,21,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:30:02] ASSORT: My name is Megan, how may I help you?
+ [22:30:09] USER: i need to schedule an appointment for my wife
+ [22:30:09] ASSORT: Great! Let's schedule an appointment.
+ [22:30:14] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:30:21] USER: No.
+ [22:30:21] ASSORT: What's the best ten digit phone number to reach you at?
+ [22:30:37] USER: XXX
+ [22:30:43] ASSORT: I only heard 9 digits, can you repeat a full ten digit phone number?
+ [22:30:50] USER: Yes.
+ [22:30:50] ASSORT: Alright, one moment.
+ [22:30:58] USER: XXX
+ [22:30:58] ASSORT: I only heard 2 digits, can you repeat a full ten digit phone number?
+ [22:31:18] USER: XXX
+ [22:31:18] ASSORT: I've got the phone number as XXX, is that correct?
+ [22:31:25] USER: Yes.
+ [22:31:25] ASSORT: Alright, one moment.
+ [22:31:32] ASSORT: And for authentication purposes, state the patient's date of birth
+ [22:31:43] USER: XXX
+ [22:31:43] ASSORT: Thanks.
+ [22:31:51] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [22:31:56] USER: yeah
+ [22:31:56] ASSORT: Got it.
+ [22:32:02] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:32:13] USER: ultrasound is overdue
+ [22:32:13] ASSORT: It seems like you have a more urgent issue. Connecting you to a live representative to handle your case."
+TRANSFER,TRANSFER,22,Redirect Patient Search Error,TRUE,REPRESENTATIVE,ERROR,"[22:29:11] ASSORT: My name is Megan, how may I help you?
+ [22:29:20] USER: new patient
+ [22:29:20] ASSORT: Are you looking to schedule an appointment as a new patient?
+ [22:29:29] USER: yes
+ [22:29:29] ASSORT: Okay, let's get you scheduled as a new patient. What doctor would you like to see?
+ [22:29:33] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:29:40] USER: Yes.
+ [22:29:40] ASSORT: Alright, one moment.
+ [22:29:46] ASSORT: Please state the patient's date of birth in the format: Month, Day, Year.
+ [22:29:59] USER: XXX
+ [22:29:59] ASSORT: The date of birth is XXXXXX, right?
+ [22:30:05] USER: Yes.
+ [22:30:05] ASSORT: Got it.
+ [22:30:08] ASSORT: Now please state the patient's last name.
+ [22:30:20] USER: XXX
+ [22:30:20] ASSORT: The last name is XXX, correct?
+ [22:30:30] USER: No.
+ [22:30:30] ASSORT: My apologies. Could you please spell the full last name for me?
+ [22:30:54] USER: XXX
+ [22:30:54] ASSORT: Got it. The last name is XXX, is that correct?
+ [22:31:07] USER: No.
+ [22:31:07] ASSORT: I'm sorry, I'm still not getting that quite right. Let's try once more. Please slowly spell the entire last name for me again.
+ [22:31:31] USER: XXX
+ [22:31:31] ASSORT: Okay, I believe I have it as XXX. Is that finally correct?
+ [22:31:42] USER: No.
+ [22:31:42] ASSORT: I'm having trouble getting the name right. Let me connect you to a representative who can help.
+ [22:31:48] ASSORT: We're having trouble finding your patient record. Connecting you to a representative now."
+TRANSFER,TRANSFER,22,Collecting Last Name,TRUE,REPRESENTATIVE,OTHER,"[22:26:38] ASSORT: My name is Megan, how may I help you?
+ [22:26:49] USER: set up a new patient appointment
+ [22:26:49] ASSORT: Are you looking to set up a new patient appointment?
+ [22:26:58] USER: yes
+ [22:26:58] ASSORT: Okay, I can help you with that. To schedule your new patient appointment, I'll need to gather a few details first.
+ [22:27:02] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:27:09] USER: Yeah.
+ [22:27:09] ASSORT: Alright, one moment.
+ [22:27:15] ASSORT: Please state the patient's date of birth in the format: Month, Day, Year.
+ [22:27:26] USER: XXX
+ [22:27:26] ASSORT: The date of birth is XXX, right?
+ [22:27:31] USER: Yes.
+ [22:27:31] ASSORT: Got it.
+ [22:27:34] ASSORT: Now please state the patient's last name.
+ [22:27:46] USER: *...silence...*
+ [22:27:46] ASSORT: And what's the patient's last name?
+ [22:27:48] USER: DTMF(0)
+ [22:27:48] ASSORT: Connecting you to a representative now.
+ [22:27:51] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,22,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:22:45] ASSORT: My name is Megan, how may I help you?
+ [22:22:58] USER: talk to a representative
+ [22:22:58] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to
+ [22:23:02] USER: talk to a representative
+ [22:23:02] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,22,COLLECT PROVIDER,TRUE,REPRESENTATIVE,OTHER,"[22:19:20] ASSORT: My name is Megan, how may I help you?
+ [22:19:28] USER: let's get an appointment
+ [22:19:28] ASSORT: Are you looking to schedule an appointment?
+ [22:19:35] USER: yes
+ [22:19:35] ASSORT: Okay, let's get that appointment scheduled for you.
+ [22:19:38] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:19:45] USER: Yes.
+ [22:19:45] ASSORT: Alright, one moment.
+ [22:19:52] ASSORT: And for authentication purposes, state the patient's date of birth
+ [22:19:59] USER: XXX
+ [22:19:59] ASSORT: Thanks.
+ [22:20:08] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [22:20:12] USER: yes
+ [22:20:12] ASSORT: Got it.
+ [22:20:18] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:20:25] USER: i just need to recheck
+ [22:20:25] ASSORT: I see you had an
+ [22:20:30] USER: if i'm pregnant
+ [22:20:30] ASSORT: So this is to recheck if you are pregnant, correct?
+ [22:20:39] USER: correct
+ [22:20:39] ASSORT: Let's get you scheduled to recheck if you are pregnant.
+ [22:20:42] ASSORT: When did the last menstrual period start?
+ [22:20:50] USER: one and a half years ago
+ [22:20:50] ASSORT: Has an ultrasound been performed?
+ [22:20:55] USER: no
+ [22:20:55] ASSORT: Thank you for that information.
+ [22:20:59] ASSORT: Has the patient's insurance changed since their last visit?
+ [22:21:05] USER: no
+ [22:21:05] ASSORT: Proceeding with the insurance we have on file.
+ [22:21:11] ASSORT: Which provider would you like to see? It's okay if you have no preference.
+ [22:21:22] USER: doctor hall
+ [22:21:22] ASSORT: I'm sorry, I don't recognize that provider. Can you please repeat their name? It's okay if you have no preference
+ [22:21:34] USER: doctor ho h o
+ [22:21:34] ASSORT: I'm sorry, I don't recognize that provider. Can you please repeat their name? It's okay if you have no preference
+ [22:21:47] USER: doctor hall
+ [22:21:47] ASSORT: I'm sorry, I don't recognize that provider. Can you please repeat their name? It's okay if you have no preference
+ [22:21:58] USER: malprofen
+ [22:21:58] ASSORT: I'm sorry, I don't recognize that provider. Can you please repeat their name? It's okay if you have no preference
+ [22:22:03] ASSORT: It seems like we're having trouble. Connecting you to a representative now."
+TRANSFER,REQUESTED TRANSFER,23,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:04:23] ASSORT: My name is Megan, how may I help you?
+ [22:04:32] USER: appointments
+ [22:04:32] ASSORT: Are you looking to schedule, reschedule, or cancel an appointment?
+ [22:04:38] USER: schedule
+ [22:04:38] ASSORT: Great! Let's schedule an appointment.
+ [22:04:42] ASSORT: Is the number you're calling from the best one to reach you at?
+ [22:04:49] USER: Yes.
+ [22:04:49] ASSORT: Alright, one moment.
+ [22:04:56] ASSORT: Please state the patient's date of birth in the format: Month, Day, Year.
+ [22:05:08] USER: XXX
+ [22:05:08] ASSORT: The date of birth is XXX, right?
+ [22:05:13] USER: Correct.
+ [22:05:13] ASSORT: Got it.
+ [22:05:18] ASSORT: The patient's first name is XXX and last name is XXX right?
+ [22:05:24] USER: correct
+ [22:05:24] ASSORT: Thanks.
+ [22:05:33] ASSORT: In one to two sentences, please describe the primary concern.
+ [22:05:47] USER: need to book ultrasound
+ [22:05:47] ASSORT: It seems like you have a more urgent issue. Connecting you to a live representative to handle your case."
+TRANSFER,PREFERS HUMAN,23,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[22:00:33] ASSORT: My name is Megan, how may I help you?
+ [22:00:44] USER: hi my name is XXX i'm trying to reach out to hold ma or whoever her doc no medic
+ [22:00:44] ASSORT: Are you trying to schedule an
+ [22:00:47] USER: no
+ [22:00:47] ASSORT: Are you trying to reach out to
+ [22:00:58] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [22:01:04] USER: no
+ [22:01:04] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,23,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:55:30] ASSORT: My name is Megan, how may I help you?
+ [21:55:38] USER: appointment
+ [21:55:38] ASSORT: Are you looking to schedule an appointment?
+ [21:55:45] USER: yes
+ [21:55:45] ASSORT: Okay, let's get that scheduled for you.
+ [21:55:49] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:56:04] USER: Talk to representative.
+ [21:56:04] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:56:13] USER: No.
+ [21:56:13] ASSORT: Connecting you to a representative now."
+TRANSFER,REQUESTED TRANSFER,24,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:54:26] ASSORT: My name is Megan, how may I help you?
+ [21:54:32] USER: make an appointment
+ [21:54:32] ASSORT: Great! Let's schedule an appointment.
+ [21:54:35] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:54:42] USER: Yeah.
+ [21:54:42] ASSORT: Alright, one moment.
+ [21:54:49] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:54:58] USER: XXX
+ [21:54:58] ASSORT: The birth date is XXX, is that correct?
+ [21:55:01] USER: yeah
+ [21:55:01] ASSORT: Thanks.
+ [21:55:10] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:55:14] USER: yes
+ [21:55:14] ASSORT: Got it.
+ [21:55:20] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:55:29] USER: pap smear
+ [21:55:29] ASSORT: Is this for an annual well woman exam or a focused gynecological visit?
+ [21:55:36] USER: annual exam
+ [21:55:36] ASSORT: Let's get scheduled for an annual well woman exam.
+ [21:55:57] ASSORT: If topics outside the scope of your annual exam are discussed, your insurance may not cover them, and you could receive a separate bill. Your provider will let you know during the appointment what is covered. Also note that this visit is to establish care and that any imaging or testing will be scheduled during this visit. Has the patient's insurance changed since their last visit?
+ [21:56:01] USER: yes
+ [21:56:01] ASSORT: Okay.
+ [21:56:04] ASSORT: What is the primary insurance plan?
+ [21:56:13] USER: XXX
+ [21:56:13] ASSORT: Do you know the product type for the XXX plan? Such as P, P, O, HMO, or other?
+ [21:56:19] USER: No.
+ [21:56:19] ASSORT: So it's a XXX plan, correct?
+ [21:56:26] USER: yeah
+ [21:56:26] ASSORT: Okay.
+ [21:56:29] ASSORT: Is the patient the policy holder on the plan?
+ [21:56:33] USER: no
+ [21:56:33] ASSORT: Okay.
+ [21:56:36] ASSORT: What is the policy holder's address?
+ [21:56:46] USER: XXX
+ [21:56:46] ASSORT: Thanks, and what city and state is that in, along with the zip code?
+ [21:56:53] USER: XXX
+ [21:56:53] ASSORT: Got it.
+ [21:57:04] ASSORT: The policy holder's address is XXX, right?
+ [21:57:11] USER: Yeah.
+ [21:57:11] ASSORT: Great!
+ [21:57:18] ASSORT: Now please specify the product type for the unitedhealthcare plan, like P P O or H M O.
+ [21:57:42] USER: PPO.
+ [21:57:42] ASSORT: So it's a UnitedHealthcare P, P, O, plan, correct?
+ [21:57:46] USER: yeah
+ [21:57:46] ASSORT: Okay.
+ [21:57:49] ASSORT: Is the patient the policy holder on the plan?
+ [21:57:53] USER: no
+ [21:57:53] ASSORT: Okay.
+ [21:57:56] ASSORT: What is the policy holder's address?
+ [21:58:08] USER: XXX
+ [21:58:08] ASSORT: Got it.
+ [21:58:20] ASSORT: The policy holder's address is XXX?
+ [21:58:23] USER: Yes.
+ [21:58:23] ASSORT: Great!
+ [21:58:30] ASSORT: Now please specify the product type for the unitedhealthcare plan, like P P O or H M O.
+ [21:58:37] USER: PPO.
+ [21:58:37] ASSORT: So it's a UnitedHealthcare P, P, O, plan, correct?
+ [21:58:40] USER: yes
+ [21:58:40] ASSORT: Okay.
+ [21:58:44] ASSORT: Is the patient the policy holder on the plan?
+ [21:58:48] USER: no
+ [21:58:48] ASSORT: Okay.
+ [21:58:51] ASSORT: What is the policy holder's address?
+ [21:58:59] USER: Representative.
+ [21:58:59] ASSORT: I'm here to help manage appointments during long hold times, and can usually
+ [21:59:04] USER: No.
+ [21:59:04] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,24,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:53:40] ASSORT: My name is Megan, how may I help you?
+ [21:53:56] USER: surgery scheduling live person
+ [21:53:56] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:54:03] USER: no
+ [21:54:03] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,24,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:52:40] ASSORT: My name is Megan, how
+ [21:52:51] USER: that's good
+ [21:52:51] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:52:59] USER: no
+ [21:52:59] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,25,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:48:44] ASSORT: My name is Megan, how may I help you?
+ [21:49:10] USER: i was in there because i'm in a patient of doctor walters and he did a tried to do a biopsy on me and couldn't do it so he wanted to do a dnc and he wanted to schedule it for outpatient at a hospital and he said they would call me but nobody called me and it's been a week
+ [21:49:10] ASSORT: It seems like you have a more urgent issue. Connecting you to a live representative to handle your case."
+TRANSFER,REQUESTED TRANSFER,25,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:46:24] ASSORT: My name is Megan, how may I help you?
+ [21:46:33] USER: schedule a new patient appointment
+ [21:46:33] ASSORT: Great! Let's schedule an appointment.
+ [21:46:37] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:46:43] USER: Yes.
+ [21:46:43] ASSORT: Alright, one moment.
+ [21:46:50] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:46:58] USER: XXX
+ [21:46:58] ASSORT: Thanks.
+ [21:47:06] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:47:10] USER: yeah
+ [21:47:10] ASSORT: Got it.
+ [21:47:16] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:47:32] USER: speak to person please
+ [21:47:32] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:47:37] USER: no
+ [21:47:37] ASSORT: Connecting you to a representative now."
+TRANSFER,REQUESTED TRANSFER,25,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:44:41] ASSORT: My name is Megan, how may I help you?
+ [21:44:50] USER: schedule appointment with XXX
+ [21:44:50] ASSORT: Great! Let's schedule an appointment.
+ [21:44:54] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:45:00] USER: Yes.
+ [21:45:00] ASSORT: Alright, one moment.
+ [21:45:07] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:45:15] USER: XXX
+ [21:45:15] ASSORT: Thanks.
+ [21:45:24] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:45:28] USER: yes
+ [21:45:28] ASSORT: Got it.
+ [21:45:34] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:45:49] USER: annual wellness visit with XXX
+ [21:45:49] ASSORT: I see you had an annual visit with XXX in XX 2024. Would you like to schedule another annual wellness visit with her?
+ [21:45:57] USER: yes
+ [21:45:57] ASSORT: Let's get scheduled for an annual wellness visit with Karline Snyder.
+ [21:46:20] ASSORT: If topics outside the scope of your annual exam are discussed, your insurance may not cover them, and you could receive a separate bill. Your provider will let you know during the appointment what is covered. Also note that this visit is to establish care and that any imaging or testing will be scheduled during this visit. Has the patient's insurance changed since their last visit?
+ [21:46:24] USER: yes
+ [21:46:24] ASSORT: Okay.
+ [21:46:27] ASSORT: What is the primary insurance plan?
+ [21:46:41] USER: Representative.
+ [21:46:41] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:46:44] USER: Representative. No.
+ [21:46:44] ASSORT: Connecting you to a
+ [21:46:47] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,25,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:44:30] ASSORT: My name is Megan, how may I help you?
+ [21:44:41] USER: ultrasound results
+ [21:44:41] ASSORT: It seems like you have a more urgent issue. Connecting you to a live representative to handle your case."
+TRANSFER,TRANSFER,25,ASK REASON,TRUE,REPRESENTATIVE,OTHER,"[21:42:07] ASSORT: My name is Megan, how may I help you?
+ [21:42:22] USER: *...silence...*
+ [21:42:22] ASSORT: I didn't quite catch that. Could you please tell me the reason for your call today?
+ [21:42:37] USER: *...silence...*
+ [21:42:37] ASSORT: I'm sorry, I'm still having trouble understanding. Please tell me in a few words why you're calling today.
+ [21:42:38] USER: DTMF(0)
+ [21:42:38] ASSORT: Connecting you to a representative now.
+ [21:42:38] USER: DTMF(0)
+ [21:42:38] ASSORT: Connecting you to a representative now.
+ [21:42:41] ASSORT: Connecting you to a representative now.
+ [21:42:44] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,26,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:41:28] ASSORT: My name is Megan, how may I help you?
+ [21:41:41] USER: representative
+ [21:41:41] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to
+ [21:41:45] USER: representative
+ [21:41:45] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,26,REDIRECT,TRUE,REPRESENTATIVE,OTHER,"[21:40:05] ASSORT: My name is Megan, how may I help you?
+ [21:40:27] USER: yes hi megan um i recently had my my implant shipped to the location on XXX the second it said it it was delivered
+ [21:40:27] ASSORT: Are you calling about a recent delivery of an implant to our XXX location?
+ [21:40:34] USER: correct
+ [21:40:34] ASSORT: I'll connect you to a representative who can help you with that.
+ [21:40:37] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,26,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:33:09] ASSORT: My name is Megan, how may I help you?
+ [21:33:24] USER: speak to a representative
+ [21:33:24] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:33:32] USER: no
+ [21:33:32] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,26,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:29:28] ASSORT: My name is Megan, how may I help you?
+ [21:29:44] USER: hi i'd like to speak to a representative
+ [21:29:44] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:29:50] USER: no thank you
+ [21:29:50] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,26,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:26:00] ASSORT: My name is Megan, how may I help you?
+ [21:26:17] USER: speak to a representative
+ [21:26:17] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:26:24] USER: no
+ [21:26:24] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,27,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:25:17] ASSORT: My name is Megan, how may I help you?
+ [21:25:31] USER: representative
+ [21:25:31] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:25:37] USER: representative
+ [21:25:37] ASSORT: Connecting you to a representative now."
+TRANSFER,REQUESTED TRANSFER,27,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:24:35] ASSORT: My name is Megan, how may I help you?
+ [21:24:47] USER: *...silence...* appointment
+ [21:24:47] ASSORT: Are you calling to schedule an appointment?
+ [21:24:51] USER: yes
+ [21:24:51] ASSORT: Understood.
+ [21:24:54] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:25:00] USER: Yes.
+ [21:25:00] ASSORT: Alright, one moment.
+ [21:25:07] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:25:16] USER: XXX
+ [21:25:16] ASSORT: The birth date is XXX, is that correct?
+ [21:25:20] USER: yes
+ [21:25:20] ASSORT: Thanks.
+ [21:25:29] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:25:32] USER: yes
+ [21:25:32] ASSORT: Got it.
+ [21:25:38] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:25:50] USER: oh my god appointment
+ [21:25:50] ASSORT: I understand you'd like to schedule an appointment. Can you tell me more about the reason for your visit today?
+ [21:26:01] USER: paxter
+ [21:26:01] ASSORT: I'm not familiar with 'paxter.' Could you please describe your primary concern in different words?
+ [21:26:08] USER: pack smear
+ [21:26:08] ASSORT: Are you referring to a Pap smear?
+ [21:26:25] USER: yes you can't even talk to a person in the morning i just have to automate it
+ [21:26:25] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:26:30] USER: no
+ [21:26:30] ASSORT: Connecting you to a representative now."
+TRANSFER,PREFERS HUMAN,27,Redirect Escape,TRUE,REPRESENTATIVE,OTHER,"[21:22:20] ASSORT: My name is Megan, how may I help you?
+ [21:22:35] USER: talk to a person
+ [21:22:35] ASSORT: I'm here to help manage appointments during long hold times, and can usually handle appointment related tasks in as little as 3 minutes. Would you like to give this a try?
+ [21:22:41] USER: no thank you
+ [21:22:41] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,27,REDIRECT SLOT MACHINE,TRUE,REPRESENTATIVE,OTHER,"[21:22:18] ASSORT: My name is Megan, how may I help you?
+ [21:22:25] USER: schedule appointment
+ [21:22:25] ASSORT: Great! Let's schedule an appointment.
+ [21:22:28] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:22:34] USER: Yes.
+ [21:22:34] ASSORT: Alright, one moment.
+ [21:22:41] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:22:49] USER: XXX
+ [21:22:49] ASSORT: Thanks.
+ [21:22:59] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:23:03] USER: yes
+ [21:23:03] ASSORT: Got it.
+ [21:23:10] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:23:24] USER: appointment for
+ [21:23:24] ASSORT: I see you'd like to schedule an appointment. Can you tell me more about the reason for your visit today?
+ [21:23:34] USER: after birth care postpartum
+ [21:23:34] ASSORT: Congratulations on your new baby! Is this for a postpartum check up?
+ [21:23:40] USER: yes
+ [21:23:40] ASSORT: Let's get scheduled for a postpartum check up.
+ [21:23:43] ASSORT: When and where was the baby delivered?
+ [21:23:48] USER: XXX
+ [21:23:48] ASSORT: I didn't quite catch that. Could
+ [21:23:54] ASSORT: I didn't quite catch that. Could you please tell me the date and location of the delivery?
+ [21:24:04] USER:XXX
+ [21:24:04] ASSORT: I'm sorry, I still didn't understand. Could you please tell
+ [21:24:11] ASSORT: I'm sorry, I'm having trouble understanding. Could you please tell me the date and location of the delivery?
+ [21:24:24] USER: date of delivery is XXX
+ [21:24:24] ASSORT: Thank you. And who was the delivering provider?
+ [21:24:32] USER: XXX
+ [21:24:32] ASSORT: And was this a vaginal delivery?
+ [21:24:40] USER: yes
+ [21:24:40] ASSORT: Were there any complications during the delivery, such as hemorrhaging,
+ [21:24:43] USER: no
+ [21:24:43] ASSORT: Thank you for the information.
+ [21:24:47] ASSORT: Has the patient's insurance changed since their last visit?
+ [21:24:53] USER: no
+ [21:24:53] ASSORT: Proceeding with the insurance we have on file.
+ [21:24:56] ASSORT: You'd like to see XXX, correct?
+ [21:25:02] USER: correct
+ [21:25:02] ASSORT: Great! I'll schedule you with XXX
+ [21:25:07] ASSORT: The only location valid for your case is XXX, does that work?
+ [21:25:16] USER: no
+ [21:25:16] ASSORT: Then which location would you like to go to? It's okay if you don't have a preference.
+ [21:25:27] USER: XXX
+ [21:25:27] ASSORT: XXX is not a valid location for your condition or provider. Please choose from XXX
+ [21:25:43] USER: *...silence...*
+ [21:25:43] ASSORT: I didn't quite catch that. Could you please tell me which of our locations you'd like to visit, or if you have no preference?
+ [21:25:56] USER: XXX
+ [21:25:56] ASSORT: XXX is not a valid location for your condition or provider. Please choose from XXX
+ [21:26:07] USER: no preference
+ [21:26:07] ASSORT: Got it. No preference.
+ [21:26:10] ASSORT: When would you like to schedule the appointment?
+ [21:26:17] USER: next available
+ [21:26:17] ASSORT: Looking for slots as soon as possible now.
+ [21:26:23] ASSORT: It seems there is no availability in the near future. Connecting you to a representative now."
+TRANSFER,TRANSFER,27,ASKING PROVIDER AND LOCATION,TRUE,REPRESENTATIVE,OTHER,"[21:15:15] ASSORT: My name is Megan, how may I help you?
+ [21:15:27] USER: hi i need to schedule um an appointment with a provider i'm not positive who i saw last time
+ [21:15:27] ASSORT: Great! Let's schedule an appointment.
+ [21:15:31] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:15:37] USER: Yeah.
+ [21:15:37] ASSORT: Alright, one moment.
+ [21:15:44] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:15:50] USER: XXX
+ [21:15:50] ASSORT: Thanks.
+ [21:15:57] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:16:01] USER: yes
+ [21:16:01] ASSORT: Got it.
+ [21:16:07] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:16:16] USER: need to schedule a pelvic exam
+ [21:16:16] ASSORT: Is this for an annual well woman exam or something else?
+ [21:16:23] USER: yes
+ [21:16:23] ASSORT: Let's get you scheduled for an annual well woman exam.
+ [21:16:45] ASSORT: If topics outside the scope of your annual exam are discussed, your insurance may not cover them, and you could receive a separate bill. Your provider will let you know during the appointment what is covered. Also note that this visit is to establish care and that any imaging or testing will be scheduled during this visit. Has the patient's insurance changed since their last visit?
+ [21:16:51] USER: no
+ [21:16:51] ASSORT: Proceeding with the XXX insurance we have on file.
+ [21:16:56] ASSORT: Is this for XXX again?
+ [21:17:05] USER: yes
+ [21:17:05] ASSORT: Okay, and what day and time are you looking to schedule this appointment?
+ [21:17:18] USER: september twenty
+ [21:17:18] ASSORT: Okay, so that's with XXX. Is that correct?
+ [21:17:30] USER: no the twenty third
+ [21:17:30] ASSORT: Got it. So that's with XXX. Is that right?
+ [21:17:41] USER: yes
+ [21:17:41] ASSORT: Okay, I'm just confirming, this is for XXX?
+ [21:17:50] USER: DTMF(0)
+ [21:17:50] ASSORT: Connecting you to a representative now.
+ [21:17:51] USER: yes
+ [21:17:51] ASSORT: Okay, I'm just confirming, this is for XXX on September 23rd?
+ [21:17:54] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,27,ASK REASON,TRUE,REPRESENTATIVE,OTHER,"[21:11:49] ASSORT: My name is Megan, how may I help you?
+ [21:11:52] USER: DTMF(0)
+ [21:11:52] ASSORT: Connecting you to a representative now.
+ [21:11:55] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,27,REDIRECT,TRUE,REPRESENTATIVE,OTHER,"[21:11:08] ASSORT: My name is Megan, how may I help you?
+ [21:11:20] USER: hi megan this is XXX i have a missed call from you guys
+ [21:11:20] ASSORT: I understand you're calling about a missed call. Let me connect you to a representative who can help you with that.
+ [21:11:23] ASSORT: Connecting you to a representative now."
+TRANSFER,TRANSFER,27,Private Insurance Numbers,TRUE,REPRESENTATIVE,OTHER,"[21:06:06] ASSORT: My name is Megan, how may I help you?
+ [21:06:14] USER: make an appointment
+ [21:06:14] ASSORT: Great! Let's schedule an appointment.
+ [21:06:18] ASSORT: Is the number you're calling from the best one to reach you at?
+ [21:06:25] USER: Yeah.
+ [21:06:25] ASSORT: Alright, one moment.
+ [21:06:33] ASSORT: And for authentication purposes, state the patient's date of birth
+ [21:06:45] USER: XXX
+ [21:06:45] ASSORT: The birth date is XXX, is that correct?
+ [21:06:51] USER: yeah
+ [21:06:51] ASSORT: Thanks.
+ [21:07:00] ASSORT: It seems like we've found the patient's record in our system. Can you confirm that the patient's first name is XXX and last name is XXX?
+ [21:07:05] USER: yes
+ [21:07:05] ASSORT: Got it.
+ [21:07:11] ASSORT: In one to two sentences, please describe the primary concern.
+ [21:07:21] USER: wells woman's checkup
+ [21:07:21] ASSORT: Let's get scheduled for a well woman's checkup.
+ [21:07:44] ASSORT: If topics outside the scope of your annual exam are discussed, your insurance may not cover them, and you could receive a separate bill. Your provider will let you know during the appointment what is covered. Also note that this visit is to establish care and that any imaging or testing will be scheduled during this visit. Has the patient's insurance changed since their last visit?
+ [21:07:52] USER: yes
+ [21:07:52] ASSORT: Okay.
+ [21:07:55] ASSORT: What is the primary insurance plan?
+ [21:08:05] USER: XXX. No.
+ [21:08:05] ASSORT: Do you know the product type for the XXX plan? Such as P, P,
+ [21:08:10] ASSORT: Do you know the product type for the XXX plan? Such as P,
+ [21:08:17] USER: No. No.
+ [21:08:17] ASSORT: So it's a XXX plan, correct?
+ [21:08:21] USER: yeah
+ [21:08:21] ASSORT: Okay.
+ [21:08:24] ASSORT: Is the patient the policy holder on the plan?
+ [21:08:29] USER: yes
+ [21:08:29] ASSORT: Okay.
+ [21:08:36] USER: DTMF(0)
+ [21:08:36] ASSORT: Connecting you to a representative now.
+ [21:08:38] ASSORT: What is the insurance subscriber ID or member ID, including any letters? Please note, this is different from the group number.
+ [21:08:41] ASSORT: Connecting you to a representative now."
