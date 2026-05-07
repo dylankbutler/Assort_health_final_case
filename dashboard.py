@@ -179,37 +179,6 @@ st.markdown(f"""
     margin: 28px 0 36px 0;
   }}
 
-  /* ── Recommendation rows ── */
-  .rec-row {{
-    display: flex;
-    gap: 16px;
-    padding: 20px 0;
-    border-bottom: 1px solid {BORDER};
-    align-items: flex-start;
-  }}
-  .rec-row:last-child {{ border-bottom: none; }}
-  .rec-num {{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    font-weight: 500;
-    color: {MUTED};
-    min-width: 24px;
-    padding-top: 2px;
-  }}
-  .rec-body {{ flex: 1; }}
-  .rec-title {{
-    font-size: 14px;
-    font-weight: 600;
-    color: {INK};
-    margin-bottom: 4px;
-    letter-spacing: -0.01em;
-  }}
-  .rec-desc {{
-    font-size: 13px;
-    color: {MUTED};
-    line-height: 1.6;
-  }}
-
   /* ── Pastel badges ── */
   .badge-high   {{ background:#EDF3EC; color:#346538; border-radius:5px;
                   padding:2px 9px; font-size:10px; font-weight:700;
@@ -726,81 +695,11 @@ with c3:
     )
     st.plotly_chart(fig, use_container_width=True, config=CHART_CFG)
 
-st.markdown("<div style='height:40px'></div>", unsafe_allow_html=True)
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# ROW 3 — Recommendations as editorial numbered list (taste: no equal 3-col grids)
-# ═══════════════════════════════════════════════════════════════════════════════
-st.markdown("""
-<div class="section-header-group">
-  <div class="section-label">Recommendations</div>
-  <div class="section-title">Prioritized actions to reduce transfer rate</div>
-  <div class="section-desc">Ranked by automation impact. High-tier items address solvable system gaps; medium and low address UX friction.</div>
-</div>
-""", unsafe_allow_html=True)
-
-recs_left, recs_right = st.columns([1, 1])
-
-left_recs = [
-    ("01", "High", "Automation",
-     "Automate IUD and specialty procedure scheduling",
-     "Calls for IUD insertions are transferred at the CC&VT redirect despite the caller completing auth and stating their reason. Build a specialty-procedure path collecting visit type and routing to the right slot type, no human required."),
-    ("02", "High", "Automation",
-     "Add patient name search",
-     "Several callers attempted name-based lookup and were transferred when the system couldn't match. Adding name search alongside phone/DOB keeps these calls in flow."),
-    ("03", "High", "Automation",
-     "Fix STT failures in name capture",
-     "Redirect Patient Search Error and Collecting Last Name transfers stem from speech-to-text misrecognition. Add phonetic matching, earlier spell-out prompts, or fall back to an SMS confirmation link before transferring."),
-    ("04", "High", "Automation",
-     "Skip subscriber ID, flag for follow-up instead",
-     "Callers blocked at insurance capture who didn't have their card transferred immediately. Allow skipping the subscriber ID and flag the appointment for staff rather than forcing a human handoff."),
-]
-
-right_recs = [
-    ("05", "High", "Automation",
-     "Offer waitlist when no slots exist",
-     "Two calls transferred because no availability was found (REDIRECT SLOT MACHINE). Instead of transferring, offer a waitlist or callback booking, which keeps the interaction automated."),
-    ("06", "Medium", "UX",
-     "Refine clinical urgency classifier",
-     "Pelvic ultrasounds and ASCUS follow-ups are auto-routing as urgent when they appear to be routine scheduling. Tighten the classifier to distinguish routine OB/GYN follow-up from true emergencies."),
-    ("07", "Medium", "UX",
-     "Re-frame the opening value pitch",
-     "47% of callers immediately request a human. Lead with a concrete benefit ('I can schedule you in under 2 min, no hold') and offer opt-out only after one engagement attempt."),
-    ("08", "Low", "UX",
-     "State scope constraints upfront",
-     "Callers who discovered system limits mid-conversation (e.g., 'I can't read a consultation') became frustrated and transferred. Proactively stating scope at the start ('I handle scheduling only') sets expectations."),
-]
-
-badge_map = {"High": "badge-high", "Medium": "badge-medium", "Low": "badge-low"}
-
-def render_recs(col, recs):
-    with col:
-        html = ""
-        for num, tier, kind, title, desc in recs:
-            badge_cls = badge_map[tier]
-            html += f"""
-            <div class="rec-row">
-              <div class="rec-num">{num}</div>
-              <div class="rec-body">
-                <div class="rec-title">
-                  {title}
-                  &nbsp;<span class="{badge_cls}">{tier}</span>
-                  &nbsp;<span class="badge-type">{kind}</span>
-                </div>
-                <div class="rec-desc">{desc}</div>
-              </div>
-            </div>"""
-        st.markdown(html, unsafe_allow_html=True)
-
-render_recs(recs_left, left_recs)
-render_recs(recs_right, right_recs)
-
-st.markdown("<div style='height:40px'></div>", unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# ROW 4 — Transcript Explorer
+# ROW 3 — Transcript Explorer
 # ═══════════════════════════════════════════════════════════════════════════════
 st.markdown("""
 <div class="section-header-group">
